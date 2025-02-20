@@ -44,7 +44,7 @@ const HomePage: React.FC = () => {
         setNumQuestions={setNumQuestions}
         triggerReload={triggerReload}
       />
-      <main className='container my-6 flex items-center justify-center'>
+      <main className='container my-2 flex items-center justify-center'>
         {/* Display the questions in a responsive grid layout */}
         <div className='grid grid-cols-1 gap-8'>
           {shuffledQuiz.map((questionData, index) => (
