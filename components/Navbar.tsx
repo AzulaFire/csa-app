@@ -67,7 +67,7 @@ const Navbar = ({ title, setNumQuestions, triggerReload }: Props) => {
   };
 
   return (
-    <nav className='border-b bg-sky-950 text-white sticky top-0'>
+    <nav className='border-b bg-sky-950 text-white lg:sticky top-0'>
       <div className='container flex flex-col sm:flex-row  sm:justify-between sm:items-center flex-wrap gap-4 py-8'>
         <div className='flex gap-4 items-center text-2xl font-bold text-white'>
           <Link href='/' onClick={handleSetToDefault}>
