@@ -111,7 +111,7 @@ const QuizCard: React.FC<QuizCardProps> = ({
             <Button
               variant='alternative'
               size='xl'
-              className={`${buttonClass} max-sm:${
+              className={`${buttonClass} ${
                 option?.length > 55
                   ? 'text-wrap h-24'
                   : option?.length > 40
