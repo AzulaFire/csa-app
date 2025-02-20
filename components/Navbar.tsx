@@ -9,6 +9,7 @@ import {
 } from '@/components/ui/select';
 import Link from 'next/link';
 import { useState } from 'react';
+import { Button } from './ui/button';
 
 type Props = {
   title: string;
@@ -91,6 +92,14 @@ const Navbar = ({ title, setNumQuestions, triggerReload }: Props) => {
             </SelectContent>
           </Select>
         </div>
+        <Button>
+          <Link
+            href='https://paypal.me/pythontiger?country.x=US&locale.x=en_US'
+            target='_blank'
+          >
+            Support My Work 💖
+          </Link>
+        </Button>
       </div>
     </nav>
   );
