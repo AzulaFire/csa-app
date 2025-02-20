@@ -112,7 +112,7 @@ const QuizCard: React.FC<QuizCardProps> = ({
               variant='alternative'
               size='xl'
               className={`${buttonClass} ${
-                option.length > 40 ? 'text-wrap h-20' : ''
+                option.length > 45 ? 'text-wrap h-20' : ''
               }`}
               key={i}
               onClick={() => handleClick(option)}
